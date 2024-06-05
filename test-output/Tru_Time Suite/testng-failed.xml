@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Tru_Time Suite]" guice-stage="DEVELOPMENT">
+  <test name="Tru_Time Test(failed)">
+    <classes>
+      <class name="TruTime.TruTimeproject">
+        <methods>
+          <include name="highlightedDate"/>
+          <include name="monthAndYear"/>
+          <include name="getDriver"/>
+          <include name="closeBrowser"/>
+          <include name="navigateTrutime"/>
+          <include name="scrollDown"/>
+          <include name="before15Days"/>
+          <include name="oneCognizant"/>
+          <include name="printingLegends"/>
+        </methods>
+      </class> <!-- TruTime.TruTimeproject -->
+    </classes>
+  </test> <!-- Tru_Time Test(failed) -->
+</suite> <!-- Failed suite [Tru_Time Suite] -->
